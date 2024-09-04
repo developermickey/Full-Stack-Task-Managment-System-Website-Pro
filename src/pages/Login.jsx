@@ -71,7 +71,7 @@ const Login = () => {
                 name="password"
                 label="Password"
                 className="w-full rounded-full"
-                register={register("email", {
+                register={register("password", {
                   required: "Password is required",
                 })}
                 error={errors.password ? errors.password.message : ""}
